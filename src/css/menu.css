@@ -1,0 +1,87 @@
+.menu{
+    width: 100%;
+    display: table;
+    /* border: 1px solid; */
+}
+.menu .brand{
+    display: table;
+    float: left;
+    /* border: 1px solid; */
+}
+.menu-list{
+    list-style: none;
+    float: right;
+    text-align: right;
+    transition: 0.3s;
+    /* border: 1px solid blue; */
+}
+.menu-list .menu-list-item:last-child{
+    margin: 0;
+}
+.menu-list .menu-list-item {
+    display: inline-block;
+}
+.menu-list .menu-list-item a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+.menu-list .menu-list-item a:hover{
+    text-decoration: underline;
+}
+.menu-hamburguer{
+    display: none;
+    width: 26px;
+    float: left;
+    border: 0;
+    background-color: #fff;
+}
+.menu-hamburguer span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 4px;
+}
+.menu-hamburguer span:last-child{
+    margin: 0 0 0 0;
+}
+.btn-close{
+    display: none;
+    width: 20%;
+    height: 75px;
+    float: left;
+    border: 0;
+    position: fixed;
+    background-color: #fff;
+    right: 0;
+    top: 0px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+.btn-close span{
+    display: table;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    margin: -3px 0 0px 0px;
+    transform: rotate(45deg);
+}
+.btn-close span:last-child{
+    transform: rotate(-45deg);
+}
+
+
+@media screen and (max-width: 1080px) {
+
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 414px) {
+    .menu-hamburguer{
+        display: table;
+        margin-top: 9px;
+    }
+}

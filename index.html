@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/grid.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/fonts.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/owl.carousel.js"></script>
+    <title>EMODA</title>
+</head>
+<body>
+    <header class="section-table section-header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <nav class="menu">
+                        <button id="menu-mobile" class="menu-hamburguer">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <a class="brand" href="#inicio"><img src="src/img/emoda-logo.png" alt="EMODA"></a>
+                        <ul id="menu-list" class="menu-list">
+                            <button id="btn-close" class="btn-close">
+                                <span></span>
+                                <span></span>
+                            </button>
+                            <li class="menu-list-item"> <a onclick="closeMenu()" href="#comofunciona">Como funciona?</a></li>
+                            <li class="menu-list-item"> <a onclick="closeMenu()" href="#servicos">Nossos serviços</a></li>
+                            <li class="menu-list-item"> <a onclick="closeMenu()" href="#video">Videos</a></li>
+                            <li class="menu-list-item"> <a onclick="closeMenu()" href="#fotos">Fotos</a></li>
+                            <li class="menu-list-item"> <a onclick="closeMenu()" href="#depoimentos">Depoimentos</a></li>
+                            <li class="menu-list-item"> <a onclick="closeMenu()" href="#namoda">Na Mídia</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div> 
+    </header>
+    <section class="section-table section-main" id="inicio">
+        <div class="container full">
+            <div class="row">
+                <div class="col col-2-sm" style="padding-left: 0;">
+                    <div class="img-box">
+                        <div class="img-border"></div>
+                        <div class="banner-image">
+                            <div class="txt">O que é o <br> EMODA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-2-sm">
+                    <p class="banner-txt">
+                        A maior asessoria <br class="br">
+                        de compras <br class="br">
+                        no atacado <br class="br">
+                        do Brasil 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-table section-comofunciona" id="comofunciona">
+        <div class="border-title"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-2">
+                    <h2 class="title">Como Funciona o Emoda?</h2>
+                    
+                    <div id="main-video" class="video-box">
+                        <button class="btn-play">
+                            <img src="src/img/btn-play.png" alt="play">
+                        </button> 
+                        <div class="video-border"></div>
+                        <video poster="src/img/thumb-video.png" width="100%">
+                            <source src="src/videos/main-video.mp4" type="video/webm">
+                            Your browser does not support HTML5 video.
+                        </video>
+                    </div>
+                
+                </div>
+                <div class="col col-2">
+                    <form class="form-emoda">
+                        <input type="text" class="form-emoda-btn" placeholder="Nome">
+                        <input type="text" class="form-emoda-btn" placeholder="Telefone">
+                        <input type="text" class="form-emoda-btn" placeholder="E-mail">
+                        <button class="form-emoda-btn">
+                            Quero Participar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-table section-servicos" id="servicos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="title">Nossos Serviços</h2>   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-4">
+                    <div class="card-list-item">
+                        <img src="src/img/icon-credit.png" alt="credito">
+                        <h3>Crédito para você</h3>
+                        <p>
+                            O EMODA tem a oportunidade que você estava procurando! CRÉDITO para capital de giro! Faça uma avaliação.
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <div class="card-list-item">
+                        <img src="src/img/icon-mentoria.png" alt="credito">
+                        <h3>Mentoria</h3>
+                        <p>
+                            Suporte para começar o negócio, com dicas de estoque, publico alvo e como investir o seu dinheiro.
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <div class="card-list-item">
+                        <img src="src/img/icon-roteiro.png" alt="credito">
+                        <h3>Roteiro personalizado</h3>
+                        <p>
+                            Sua especialista monta um roteiro de marcas de acordo com o seu publico alvo e o seu ticket médio
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <div class="card-list-item">
+                        <img src="src/img/icon-espec.png" alt="credito">
+                        <h3>ESPECIALISTAS</h3>
+                        <p>
+                            É a pessoa que assessora as suas compras online ou presencial! Desde a escolha de produtos até o envio das peças!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-videos" id="video">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="title">videos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="owl-videos" class="slide owl-carousel">
+                        <div class="video-box" id='video1'>
+                            <button class="btn-play"><img src="src/img/btn-play.png" alt="play"></button> 
+                            <video poster="src/videos/thumb1.png" width="100%">
+                                <source src="src/videos/video1.mp4" type="video/webm">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+                        <div class="video-box" id='video2'>
+                            <button class="btn-play"><img src="src/img/btn-play.png" alt="play"></button> 
+                            <video poster="src/videos/thumb2.png" width="100%">
+                                <source src="src/videos/video2.mp4" type="video/webm">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+                        <div class="video-box" id='video3'>
+                            <button class="btn-play"><img src="src/img/btn-play.png" alt="play"></button> 
+                            <video poster="src/videos/thumb3.png" width="100%">
+                                <source src="src/videos/video3.mp4" type="video/webm">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-fotos" id="fotos"> 
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                    <h2 class="title">Fotos</h2>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                    <div id="owl-fotos" class="slide owl-carousel">
+                      <img style="width: 255px;" src="src/img/foto-1.jpg" alt="">
+                      <img style="width: 191px" src="src/img/foto-2.jpg" alt="">
+                      <img style="width: 191px" src="src/img/foto-3.jpg" alt="">
+                      <img style="width: 255px;" src="src/img/foto-4.jpg" alt="">
+                      <img style="width: 255px;" src="src/img/foto-5.jpg" alt="">
+                      <img style="width: 255px;" src="src/img/foto-6.jpg" alt="">
+                      <img style="width: 191px" src="src/img/foto-7.jpg" alt="">
+                      <img style="width: 191px" src="src/img/foto-8.jpg" alt="">
+                    </div>
+               </div>
+           </div>
+       </div>
+    </section>
+    <section class="section section-depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="title">Depoimentos</h2>
+                    <div id="owl-depos" class="slide owl-carousel">
+                        <div class="item slide-item">
+                            <p>
+                                <img class="aspas-maior" src="src/img/aspas-maior.png" alt="'">
+                                <span>
+                                    Maravilhoso Vanessa, minhas peças novas e lindas compradas com ajuda de vocês fizeram super diferença, estou com o coração muito grato e feliz.
+                                </span>
+                                <img class="aspas-menor" src="src/img/aspas-menor.png" alt="'">
+                            </p>
+                            <!-- <h3>Fulano da Silva, Logísta de Araçatuba - SP</h3> -->
+                        </div>
+                        <div class="item slide-item">
+                            <p>
+                                <img class="aspas-maior" src="src/img/aspas-maior.png" alt="'">
+                                <span>
+                                    Meninas, fiz minha primeira compra hoje com a ajuda de uma especialista na poema hit, os preços valem a pena. E ainda encontrei a lindona da Vanessa, muito simpática, que trabalho lindo e sério, parabéns EMODA!                                </span>
+                                <img class="aspas-menor" src="src/img/aspas-menor.png" alt="'">
+                            </p>
+                            <!-- <h3>Fulano da Silva, Logísta de Araçatuba - SP</h3> -->
+                        </div>
+                        <div class="item slide-item">
+                            <p>
+                                <img class="aspas-maior" src="src/img/aspas-maior.png" alt="'">
+                                <span>
+                                    Olha, chegou tudo certo! Obrigada
+                                    EMODA e minha especialista por serem meus olhos em São Paulo. Facilita um tanto
+                                    que vocês não fazem idéia.                                  </span>
+                                <img class="aspas-menor" src="src/img/aspas-menor.png" alt="'">
+                            </p>
+                            <!-- <h3>Fulano da Silva, Logísta de Araçatuba - SP</h3> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-namidia" id="namoda">
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                    <h2 class="title">Na Mídia</h2>
+                    <div id="owl-namidia" class="slide owl-carousel">
+                        <div class="item slide-namidia-item">
+                            <p>
+                                <b>O Que é o EMODA?</b><br>
+                                A maior assesoria de cpmpras no atacado do Brasil.
+                            </p>
+                            <!-- <img src="src/img/marca-veja.png" alt="Veja"> -->
+                        </div>
+                        <div class="item slide-namidia-item">
+                            <p>
+                                <b>Grupo de compras</b><br>
+                               Pelo grupo de compras você fica sabendo dos lançamentos, fotos, preços e até as promoções das principais marcas do atacado
+                            </p>
+                            <!-- <img src="src/img/marca-veja.png" alt="Veja"> -->
+                        </div>
+                        <div class="item slide-namidia-item">
+                            <p>
+                                <b>Como compra</b><br>
+                                1.Acompanhe tudo <br>
+                                2.Escolha as peças <br>
+                                3.Monte a grade <br>
+                                4.Pague direto para a marca <br>
+                                5.Receba suas peças
+                            </p>
+                            <!-- <img src="src/img/marca-veja.png" alt="Veja"> -->
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+    </section>
+    <footer class="section-table section-footer">
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                    <h2 class="title">Siga EMODA nas redes sociais</h2>
+                    <ul class="redes-lista">
+                        <li class="redes-lista-item"><a href="https://www.facebook.com/oficialemoda"><img src="src/img/rede-facebook.png" alt="facebook"></a></li>
+                        <li class="redes-lista-item"><a href="https://www.instagram.com/bomretiroaovivo/"><img src="src/img/rede-instagram.png" alt="instagram"></a></li>
+                        <li class="redes-lista-item"><a href="bit.ly/2lz3YEo"><img src="src/img/rede-whatsapp.png" alt="whatsapp"></a></li>
+                        <li class="redes-lista-item"><a href="https://vimeo.com/bomretiroaovivo"><img src="src/img/rede-vimeo.png" alt="vimeo"></a></li>
+                        <li class="redes-lista-item"><a href="http://blog.emodaaovivo.com.br/"><img src="src/img/rede-moda.png" alt="moda"></a></li>
+                    </ul>
+               </div>
+           </div>
+       </div>
+    </footer>
+    <script>
+        let menuMobile = document.getElementById('menu-mobile');
+        let menuList = document.getElementById('menu-list');
+        let btnClose = document.getElementById('btn-close');
+        menuMobile.onclick =  function() {
+            menuList.style.marginLeft = 0;
+            btnClose.style.display = 'table';
+        }
+        function closeMenu() {
+            menuList.style.marginLeft = '-80%';
+            btnClose.style.display = 'none';
+        }
+        btnClose.onclick = closeMenu;
+        function createVideo(idVideo) {
+            let videoBox =  document.getElementById(idVideo);
+            let buttonList = videoBox.getElementsByTagName('button');
+            let videoList = videoBox.getElementsByTagName('video');
+            let imgBtnPlayList = buttonList[0].getElementsByTagName('img')
+            buttonList[0].onclick = function () {
+                
+                if (videoList[0].paused) {
+                    videoList[0].play()
+                    imgBtnPlayList[0].src = 'src/img/btnpause.png'
+                    this.onmouseover = function(){imgBtnPlayList[0].style.opacity = 1}
+                    this.onmouseout = function(){imgBtnPlayList[0].style.opacity = 0}
+                }
+                else {
+                    this.onmouseover = function(){imgBtnPlayList[0].style.opacity = 1}
+                    this.onmouseout = function(){imgBtnPlayList[0].style.opacity = 1}
+                    videoList[0].pause();
+                    imgBtnPlayList[0].src = 'src/img/btn-play.png';
+                }
+            }
+        }
+        createVideo('main-video')
+        createVideo('video1')
+        createVideo('video2')
+        createVideo('video3')
+
+        $(document).ready(function() {
+            $('.menu-list li a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                var id = $(this).attr('href'),
+                    targetOffset = $(id).offset().top;
+
+                $('html, body').animate({
+                    scrollTop: targetOffset - 70
+                }, 500);
+            });
+            var owl = $('#owl-fotos');
+            owl.owlCarousel({
+            margin: 10,
+            nav: false,
+            loop: true,
+            autoWidth: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                414:{
+                    items: 3
+                },
+                768: {
+                    items: 3
+                },
+                1080:{
+                    items: 4
+                }
+            }
+            });
+            var owlDepos = $('#owl-depos');
+            owlDepos.owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: true,
+                items: 1,
+                autoplay: true
+            });
+            var owlNamidia = $('#owl-namidia');
+            owlNamidia.owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: true,
+                items: 1,
+                autoplay: true
+            });
+            var owlVideos = $('#owl-videos');
+            owlVideos.owlCarousel({
+                margin: 10,
+                nav: false,
+                loop: false,
+                autoplay: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    414:{
+                        items: 2
+                    },
+                    768: {
+                        items: 3
+                    }
+                }
+            });
+            
+        })
+       
+    </script> 
+    
+</body>
+</html>

@@ -1,0 +1,510 @@
+.section-header{
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    margin: 0;
+    padding: 20px 0;
+}
+.menu{
+    margin: 0 0 0 0;
+}
+.menu-list .menu-list-item {
+    margin: 0 30px 0px 0;
+}
+.menu-list-item a{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+.section-main{
+    padding: 86px 0 0 0;
+    margin-bottom: 95px;
+}
+.brand{
+    width: 94px;
+    height: 36px;
+}
+.banner-image{
+    width: 100%;
+    display: table;
+    min-height: 326px;
+    background-image: url("../img/main-banner.png");
+    background-size: cover;
+}
+.banner-image .txt{
+    content: 'O que é o EMODA?';
+    float: right;
+    margin: 20px 20px 0px 0px;
+    display: block;
+    font-size: 43px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner-txt{
+    font-size: 2.1em;
+    font-weight: 100;
+    position: relative;
+    margin: 16% 0 0 25px;
+    line-height: 40px;
+}
+.img-border {
+    position: absolute;
+    display: block;
+    width: 110%;
+    height: 100%;
+    border: 1px solid #000000;
+    right: 15px;
+    margin: 20px -20px 0 0;
+}
+.video-box{
+    display: table;
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+}
+.video-box:hover .btn-play{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.video-border{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+    margin: 20px 0 0 30px;
+}
+.btn-play{
+    position: absolute;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 100%;
+    border: 0;
+    outline: none;
+    text-align: center;
+}
+.btn-play:hover{
+    opacity: 1;
+}
+.btn-play img{
+    width: 26%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.owl-carousel .owl-item .btn-play img{
+    width: 26%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.section-comofunciona .border-title {
+    width: 46.3%;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    margin: 9em 0 0 0;
+}
+
+.section-comofunciona{
+    margin-bottom: 95px;
+}
+.section-comofunciona .title {
+    color: #000000;
+    margin: 4.29em 0 0 0;
+}
+
+/* form */
+.form-emoda{
+    width: 100%;
+    height: 610px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 8px 5px rgba(21,12,24,0.07));
+    background-color: #ffffff;
+    padding: 80px 30px;
+    margin-left: -30px;
+    position: relative;
+    z-index: 10;
+}
+.form-emoda input{
+    width: 100%;
+    height: 53px;
+    border-radius: 27px;
+    background-color: #ffffff;
+    border: 2px solid #9a9a9a;
+    margin-bottom: 60px;
+    font-size: 25px;
+    padding: 0 0 0 30px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.form-emoda button{
+    width: 100%;
+    height: 50px;
+    padding: 0 0 0 15px;
+    border-radius: 30px;
+    margin-top: 45px;
+    background-color: #000;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.section-servicos .container{
+    margin-bottom: 115px;
+}
+.section-servicos .title{
+    color: #000000;
+    border-top: 2px solid #000;
+}
+.card-list-item{
+    display: table;
+    width: 100%;
+    min-height: 333px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 8px 5px rgba(21,12,24,0.07));
+    background-color: #ffffff;
+    padding: 15px;
+}
+.card-list-item img {
+     width: 115px;
+     margin: 15px auto;
+}
+.card-list-item h3{
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.card-list-item p{
+    text-align: center;
+}
+.section-videos{
+    background-color: #000;
+    color: #fff;
+}
+.section-videos .container{
+    margin-bottom: 90px;
+}
+.section-videos .title{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 40px;
+    margin-top: 65px;
+}
+.section-videos .video-list .video-list-item:last-child {
+    margin-right: 0;
+}
+.section-videos .video-list .video-list-item img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -45px 0 0 -45px;
+}
+.section-fotos {
+    display: flex;
+}
+.section-fotos .title{
+    color: #000000;
+    border-top: 2px solid #000;
+    margin: 115px 0 20px 0;
+}
+.section-fotos .container{
+    margin-bottom: 115px;
+}
+/* .arrow-next{
+    left: 0;
+} 
+.arrow-prev{
+    right: 0;
+} */
+/* .arrow-next, .arrow-prev{
+    position: absolute;
+    top: 10%;
+    margin: -10px 0 0 0;
+} */
+.section-depoimentos{
+    background-color: #000;
+    color: #fff;
+}
+.section-depoimentos .container{
+    margin-bottom: 95px;
+}
+.section-depoimentos .title{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-top: 95px;
+    margin-bottom: 30px;
+}
+.section-namidia .container{
+    margin-bottom: 95px;
+}
+.section-namidia .title{
+    color: #000000;
+    border-top: 2px solid #000;
+    margin-top: 95px;
+} 
+.section-namidia .slide-namidia {
+    width: 100%;
+    max-width: 1080px;
+    display: block;
+    /* border: 1px solid #000; */
+    position: relative;
+    margin-bottom: 120px;
+}
+.slide-namidia-item{
+    display: table;
+    min-height: 150px;
+    width: 90%;
+    margin: 0 auto;
+}
+.slide-namidia-item p{
+    margin: 0 auto;
+    display: table;
+    width: 70%;
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: italic;
+}
+.slide-namidia-item img{
+    display: block;
+    margin: 20px auto 5px auto;
+    height: auto;
+    max-width: 75px;
+}
+.section-footer{
+    background-color: #000;
+}
+.section-footer .title{
+    color: #ffffff;
+    margin: 95px 0 0 0;
+}
+.section-footer ul{
+    display: table;
+    margin: 0 auto 115px auto;
+}
+.section-footer ul li:last-child{
+    margin-right: 0px;
+}
+.section-footer ul li{
+    margin-right: 20px;
+    display: inline-block;
+}
+
+
+/* slide */
+.slide{}
+.slide .slide-item{
+    display: table;
+    width: 100%;
+}
+.slide .slide-item .aspas-maior{
+    display: inline;
+    width: auto;
+    height: 44px;
+    margin: 0 15px 0 -100px;
+}
+.slide .slide-item .aspas-menor{
+    display: inline;
+    width: auto;
+    height: 28px;
+    margin: 0 0 -10px 20px;
+}
+.slide .slide-item p{
+    margin: 0 auto;
+    display: table;
+    width: 71%;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-style: italic;
+}
+.slide .slide-item h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+.slide .slide-item img{
+    max-height: 350px;
+    width: auto;
+    margin: 0 auto;
+}
+/* slide end */
+
+@media screen and (max-width: 1080px) {}
+@media screen and (max-width: 768px) {
+    /* MENU */
+    .menu-list .menu-list-item {
+        margin: 0 0 0 0;
+    }
+    /* BANNER */
+    .section-main {
+        margin-bottom: 55px;
+    }
+    .img-border  {
+        /* margin: -20px 0 0 -75px; */
+    }
+    .banner-image .txt {
+        margin: 20px 10% 0 0;
+    }
+    .section-comofunciona .border-title,
+    .section-comofunciona .title{
+        margin-top: 1em;
+    }
+    /* COMO FUNCIONA */
+    .form-emoda {
+        margin: 0;
+    }
+    .video-border {
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 414px) {
+    .video-border {
+        margin: 12px 0 0 10px;
+    }
+    .section-header{
+        padding: 0;
+    }
+    .menu{
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #fff;
+        padding: 20px;
+        z-index: 999;    
+    }
+    .menu-list{
+        width: 80%;
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        left: 0;
+        background: #fff;
+        z-index: 99;
+        border-right: 1px solid #ccc;
+        margin-left: -80%;
+
+    }
+    .menu-list-item{
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        padding: 20px 10px;
+    }
+    .menu .brand{
+        float: right;
+    }
+    .img-border{
+        margin: -20px -20px 0 0;
+    }
+    .section-main{
+        margin-top: 0;
+        padding: 106px 0 0 0;
+    }
+    .banner-image{
+        height: 215px;
+        min-height: 0;
+    }
+    .banner-txt {
+        font-size: 1.35em;
+        margin: 20% 0 0 10px;
+        line-height: 26px;
+    }
+    .banner-image .txt {
+        font-size: 1.65em;
+    }
+    h2.title{
+        font-size: 1.35em;
+    }
+    .section-comofunciona .border-title {
+        width: 90%;
+        margin-top: 93%;
+    }
+    .form-emoda {
+        padding: 10px;
+        height: 318px;
+        width: 289px;
+        margin: 0 auto;
+    }
+    .form-emoda input {
+        font-size: 1em;
+        height: 33px;
+        margin-bottom: 35px;
+    }
+    .form-emoda button {
+        font-size: 1em;
+        margin-top: 30px;
+    }
+    .card-list-item {
+        width: 235px;
+        margin: 0 auto;
+    }
+    .section-servicos .container, .section-videos .container{
+        margin-bottom: 45px;
+    }
+    .section-videos .title{
+        margin-top: 0;
+    }
+    .section-fotos .title{
+        margin-top: 35px;
+        margin-bottom: 0;
+    }
+    .section-depoimentos .title{
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .slide .slide-item p, .slide-namidia-item p{
+        width: 80%;
+        font-size: 1.1em;
+    }
+    .slide .slide-item .aspas-maior{
+        margin: 0 15px 0 -25px;
+    }
+    .slide .slide-item h3{
+        font-size: 0.9em;
+    }
+    .section-depoimentos .container, .section-namidia .container, .section-fotos .container{
+        margin-bottom: 45px;
+    }
+    .section-namidia .title{
+        margin-top: 45px;
+    }
+    .section-footer .col{
+        padding: 0;
+    }
+    .section-comofunciona > .container > .row:first-child{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+
+    
+
+
+}
